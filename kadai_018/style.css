@@ -1,0 +1,80 @@
+#top {
+    width: 800px;
+    background-color: #dcc9f4;
+    margin: 20px;/* 上下に20px入れる */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;/* 中央にする */
+}
+
+.top-child {
+    width: 20%;
+    background-color: #ffd9df;
+    display: inline-block; /* 要素を横並びにする */
+}
+
+#middle{
+    width: 800px;
+    height: 800px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffd9df;
+    position: relative;
+}
+
+#middle-child01 {
+    position: absolute;/*親要素に基準を合わせる*/
+    width: 200px;
+    height: 200px;
+    background-color: #87ceeb;
+    top: 100px;
+    left: 100px;
+}
+
+#middle-child02 {
+    position: absolute;/*親要素に基準を合わせる*/
+    width: 200px;
+    height: 200px;
+    background-color: #87ceeb;
+    top: 300px;
+    left: 300px;
+}
+
+#middle-child03 {
+    position: absolute;/*親要素に基準を合わせる*/
+    width: 200px;
+    height: 200px;
+    background-color: #87ceeb;
+    top: 500px;
+    left: 500px;
+}
+
+#bottom {
+    width: 800px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #87ceeb;
+}
+
+#bottom-child01 {
+    width: 400px;
+    height: 100px;
+    background-color: #e5dcf0;
+}
+
+#bottom-child02 {
+    width: 400px;
+    height: 100px;
+    background-color:  #e5dcf0;
+    margin-left: 200px;
+}
+
+#bottom-child03 {
+    width: 400px;
+    height: 100px;
+    background-color: #e5dcf0;
+    margin-left: 400px;
+}
